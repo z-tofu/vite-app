@@ -94,6 +94,9 @@ function animate(){
 
     controls.update();
 
+    renderer.setPixelRatio(window.devicePixelRatio);
+    renderer.setSize(window.innerWidth, window.innerHeight);
+
     renderer.render(scene, camera);
     if (lockFramerate){
       animate.lastTime = now;
