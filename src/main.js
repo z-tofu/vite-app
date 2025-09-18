@@ -54,9 +54,9 @@ Array(200).fill().forEach(addStar);
 
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 
-const spaceTexture = new THREE.TextureLoader().load('space.jpg');
-spaceTexture.colorSpace = THREE.SRGBColorSpace;
-scene.background = spaceTexture;
+//const spaceTexture = new THREE.TextureLoader().load('space.jpg');
+//spaceTexture.colorSpace = THREE.SRGBColorSpace;
+//scene.background = spaceTexture;
 
 
 function moveCamera(){
